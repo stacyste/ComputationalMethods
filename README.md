@@ -21,3 +21,6 @@ models of every statistician's toolkit. These methods are implemented in multipl
 	- [Tensorflow](AdditionalSkills/Tensorflow.py) Neural Net
 	- [SAS](AdditionalSkills/SAS_Intro.sas) Tutorial
 	- [Parallel Computing](AdditionalSkills/Parallel_Computing.R) in R
+
+
+Methods were implemented as part of class work for Computational Statistics 202A at UCLA.

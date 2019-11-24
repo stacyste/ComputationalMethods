@@ -8,32 +8,6 @@
 ## decomposition
 #########################################################
 
-#############################################################
-## INSTRUCTIONS: Please fill in the missing lines of code
-## only where specified. Do not change function names, 
-## function inputs or outputs. You can add examples at the
-## end of the script (in the "Optional examples" section) to 
-## double-check your work, but MAKE SURE TO COMMENT OUT ALL 
-## OF YOUR EXAMPLES BEFORE SUBMITTING.
-##
-## Very important: Do not use the function "setwd" anywhere
-## in your code. If you do, I will be unable to grade your 
-## work since R will attempt to change my working directory
-## to one that does not exist.
-#############################################################
-
-
-################ Optional ################ 
-## If you are using functions from Rcpp, 
-## uncomment and adjust the following two 
-## lines accordingly. Make sure that your 
-## cpp file is in the current working
-## directory, so you do not have to specify
-## any directories in sourceCpp(). For 
-## example, do not write
-## sourceCpp('John_Doe/Homework/Stats202A/QR.cpp')
-## since I will not be able to run this.
-
 #library(Rcpp)
 #sourceCpp("Stat202A-HW4.cpp")
 
@@ -46,10 +20,6 @@ myQR <- function(A){
   ## Perform QR decomposition on the matrix A
   ## Input: 
   ## A, an n x m matrix
-  
-  ########################
-  ## FILL IN CODE BELOW ##
-  ########################  
   n <- nrow(A)
   m <- ncol(A)
   Q <- diag(n)
@@ -144,17 +114,3 @@ myLogistic <- function(X, Y){
   ## Function returns the logistic regression solution vector
   return(beta)  
 }
-
-# set.seed(100)
-# ## Optional testing (comment out!)
-# n <- 100
-# p <- 4
-# 
-# X    <- matrix(rnorm(n * p), nrow = n)
-# beta <- rnorm(p)
-# Y    <- 1 * (runif(n) < expit(X %*% beta))
-# 
-# logistic_beta <- myLogistic(X, Y)
-# logistic_beta
-# 
-# glm(formula = Y~X + 0, family = "binomial")

@@ -8,18 +8,6 @@
 ## based on QR.
 #########################################################
  
-###########################################################
-## INSTRUCTIONS: Please fill in the missing lines of code
-## only where specified. Do not change function names, 
-## function inputs or outputs. MAKE SURE TO COMMENT OUT ALL 
-## OF YOUR EXAMPLES BEFORE SUBMITTING.
-##
-## Very important: Do not change your working directory
-## anywhere inside of your code. If you do, I will be unable 
-## to grade your work since R will attempt to change my 
-## working directory to one that does not exist.
-###########################################################
- 
  */ 
 
 

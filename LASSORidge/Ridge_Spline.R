@@ -6,25 +6,6 @@
 ## well as piecewise linear spline regression.
 #############################################################
 
-#############################################################
-## INSTRUCTIONS: Please fill in the missing lines of code
-## only where specified. Do not change function names, 
-## function inputs or outputs. You can add examples at the
-## end of the script (in the "Optional examples" section) to 
-## double-check your work, but MAKE SURE TO COMMENT OUT ALL 
-## OF YOUR EXAMPLES BEFORE SUBMITTING.
-##
-## Very important: Do not use the function "setwd" anywhere
-## in your code. If you do, I will be unable to grade your 
-## work since R will attempt to change my working directory
-## to one that does not exist.
-#############################################################
-
-## Source your Rcpp file (put in the name of your 
-## Rcpp file)
-library(Rcpp)
-sourceCpp("202A-HW6.cpp")
-
 ##################################
 ## Function 1: QR decomposition ##
 ##################################

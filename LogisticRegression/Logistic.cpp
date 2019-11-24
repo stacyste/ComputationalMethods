@@ -7,18 +7,6 @@
 ## and linear regression based on QR.
 #########################################################
  
-###########################################################
-## INSTRUCTIONS: Please fill in the missing lines of code
-## only where specified. Do not change function names, 
-## function inputs or outputs. MAKE SURE TO COMMENT OUT ALL 
-## OF YOUR EXAMPLES BEFORE SUBMITTING.
-##
-## Very important: Do not change your working directory
-## anywhere inside of your code. If you do, I will be unable 
-## to grade your work since R will attempt to change my 
-## working directory to one that does not exist.
-###########################################################
- 
  */ 
 
 
@@ -43,7 +31,6 @@ double signC(double d){
 Problem 1: QR decomposition 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */  
 
-
 // [[Rcpp::export()]]
 List myQRC(const mat A){ 
   
@@ -51,10 +38,6 @@ List myQRC(const mat A){
   Perform QR decomposition on the matrix A
   Input: 
   A, an n x m matrix (mat)
-  
-#############################################
-## FILL IN THE BODY OF THIS FUNCTION BELOW ##
-#############################################
   
   */ 
   int n = A.n_rows;
@@ -108,12 +91,6 @@ mat myLMC(const mat X, const mat Y){
   Input: 
   X is an n x p matrix of explanatory variables
   Y is an n dimensional vector of responses
-  Use myQRC inside of this function
-  
-#############################################
-## FILL IN THE BODY OF THIS FUNCTION BELOW ##
-#############################################
-  
   */
   int p = X.n_cols;
   

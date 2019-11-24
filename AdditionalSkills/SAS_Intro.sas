@@ -1,6 +1,4 @@
 * Final SAS project for STAT202A;
-* Complete the code;
-
 * Import car data;
 proc import out= work.data
 datafile= "/folders/myfolders/study1/regression_auto.csv"

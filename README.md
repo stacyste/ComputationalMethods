@@ -14,7 +14,7 @@ models of every statistician's toolkit. These methods are implemented in multipl
 - [Logistic Regression](LogisticRegression)  
 - [LASSO](LASSORidge/Lasso.R)  
 - [Ridge Regression](LASSORidge/Ridge_Spline.R)  
-- [Adaboost](Adaboost_SVM/ ([Demo](Adaboost_SVM/Demo-SVMAdaboost.ipynb)) 
+- [Adaboost](Adaboost_SVM/) ([Demo](Adaboost_SVM/Demo-SVMAdaboost.ipynb)) 
 - [Support Vector Machines](Adaboost_SVM/) ([Demo](Adaboost_SVM/Demo-SVMAdaboost.ipynb))
 - [Perceptron Neural Networks](NeuralNets/) ([Demo](NeuralNets/Demo-NeuralNet.ipynb)) 
 - Additional

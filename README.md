@@ -5,19 +5,19 @@ This repository contains a set of computational statistical methods implemented 
 models of every statistician's toolkit. These methods are implemented in multiple programming languages: R, Rcpp, Python, and SAS.
 
 ## Included Methods
-- Linear Regression  
+- [Linear Regression](LinearRegression/): ([Demo]((LinearRegression/Demo-LinearRegression.ipynb))
 	- by Gauss Jordan Elimination  
 	- by Sweep Operator  
-- PCA  
+- [PCA](PCA/) ([Demo](PCA/Demo-PCA-QR.ipynb)) 
 	- QR Decomposition  
 	- Eigenvalue and Eigenvector Decomposition by Power Method  
-- Logistic Regression  
-- LASSO  
-- Ridge Regression  
-- Adaboost  
-- Support Vector Machines  
-- Perceptron Neural Networks  
+- [Logistic Regression](LogisticRegression)  
+- [LASSO](LASSORidge/Lasso.R)  
+- [Ridge Regression](LASSORidge/Ridge_Spline.R)  
+- [Adaboost](Adaboost_SVM/ ([Demo](Adaboost_SVM/Demo-SVMAdaboost.ipynb)) 
+- [Support Vector Machines](Adaboost_SVM/) ([Demo](Adaboost_SVM/Demo-SVMAdaboost.ipynb))
+- [Perceptron Neural Networks](NeuralNets/) ([Demo](NeuralNets/Demo-NeuralNet.ipynb)) 
 - Additional
-	- Tensorflow Neural Net
-	- SAS Tutorial
-	- Parallel Computing in R
+	- [Tensorflow](AdditionalSkills/Tensorflow.py) Neural Net
+	- [SAS](AdditionalSkills/SAS_Intro.sas) Tutorial
+	- [Parallel Computing](AdditionalSkills/Parallel_Computing.R) in R

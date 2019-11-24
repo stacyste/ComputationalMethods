@@ -5,7 +5,7 @@ This repository contains a set of computational statistical methods implemented 
 models of every statistician's toolkit. These methods are implemented in multiple programming languages: R, Rcpp, Python, and SAS.
 
 ## Included Methods
-- [Linear Regression](LinearRegression/): ([Demo]((LinearRegression/Demo-LinearRegression.ipynb))
+- [Linear Regression](LinearRegression/): ([Demo](LinearRegression/Demo-LinearRegression.ipynb))
 	- by Gauss Jordan Elimination  
 	- by Sweep Operator  
 - [PCA](PCA/) ([Demo](PCA/Demo-PCA-QR.ipynb)) 
